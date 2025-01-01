@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // Ensure JSX syntax is supported
+    "esModuleInterop": true, // Allows default imports for CommonJS modules
+    "allowSyntheticDefaultImports": true,
+    "types": ["jest", "@testing-library/jest-dom"] // Includes Jest and @testing-library types
+  }
+}
